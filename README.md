@@ -1,0 +1,21 @@
+# ONG Platform - Entrega (versão inicial)
+
+Este repositório contém uma primeira versão de uma plataforma web para ONGs — atividades de front-end cobrindo HTML5 semântico, formulários, máscaras, responsividade e acessibilidade básica.
+
+## Estrutura
+- `index.html` — página inicial
+- `projetos.html` — listagem de projetos
+- `cadastro.html` — formulário com validação e máscaras
+- `css/style.css` — estilos mobile-first
+- `js/main.js` — máscaras e pequenas interações
+- `assets/images/` — imagens de exemplo
+- `assets/docs/relatorio-transparencia.pdf` — documento de exemplo (placeholder)
+
+## Como usar
+1. Extraia o ZIP.
+2. Abra `index.html` localmente ou faça deploy no GitHub Pages (recomendado).
+3. Para publicar: crie repositório público no GitHub, faça push dos arquivos e habilite GitHub Pages em `main` -> root.
+
+## Observações
+- Substitua as imagens em `assets/images/` por versões otimizadas (WEBP/AVIF) antes do deploy.
+- Em produção, remova o `novalidate` do formulário e implemente backend para persistência.

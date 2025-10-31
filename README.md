@@ -11,11 +11,3 @@ Este repositório contém uma primeira versão de uma plataforma web para ONGs �
 - `assets/images/` — imagens de exemplo
 - `assets/docs/relatorio-transparencia.pdf` — documento de exemplo (placeholder)
 
-## Como usar
-1. Extraia o ZIP.
-2. Abra `index.html` localmente ou faça deploy no GitHub Pages (recomendado).
-3. Para publicar: crie repositório público no GitHub, faça push dos arquivos e habilite GitHub Pages em `main` -> root.
-
-## Observações
-- Substitua as imagens em `assets/images/` por versões otimizadas (WEBP/AVIF) antes do deploy.
-- Em produção, remova o `novalidate` do formulário e implemente backend para persistência.
